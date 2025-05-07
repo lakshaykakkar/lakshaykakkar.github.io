@@ -49,7 +49,7 @@ interests:
   - Information Retrieval
 
 education:
-  - area: MS, Diffusion Models
+  - area: MS, Artificial Intelligence
     institution: Indian Institute of Technology Delhi
     date_start: 2023-07-17
     date_end: 2026-07-16
