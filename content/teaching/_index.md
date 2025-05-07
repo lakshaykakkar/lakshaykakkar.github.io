@@ -1,5 +1,5 @@
 ---
-title: Teaching
+title: Intern@AAI
 summary: My courses
 type: landing
 ---
