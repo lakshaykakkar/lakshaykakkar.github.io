@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: dark
-  color: rose
+  mode: system
+  color: sky
 
 # SEO
 marketing:
