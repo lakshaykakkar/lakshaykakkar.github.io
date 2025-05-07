@@ -5,10 +5,10 @@ type: landing
 ---
 
 sections:
-  - block:cards
+  - block: cards
     content: 
-      title:Internship Problem Areas
-      text:Explore key research/tech challenges open for interns.
+      title: Internship Problem Areas
+      text: Explore key research/tech challenges open for interns.
       items:
     
         - title: RAG on AAI Documents
