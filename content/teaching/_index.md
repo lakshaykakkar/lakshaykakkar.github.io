@@ -8,7 +8,7 @@ sections:
   - block: cards
     content: 
       title: Internship Problem Areas
-      text: _Provided that the competent authority approves me as your internship mentor, you will get a chance to contribute to the below problem areas._
+      text: Provided that the competent authority approves me as your internship mentor, you will get a chance to contribute to the below problem areas.
       items:
         - title: Retrieval Augmented Generation (RAG) for Information Retrieval from AAI Circulars/Documents
           content: The aim is to leverage RAG and LLMs in order to provide the necessary response from the relevant circulars without having the employees struggling in searching for the relevant circulars.
