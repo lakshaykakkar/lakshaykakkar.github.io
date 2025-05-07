@@ -15,7 +15,7 @@ sections:
         - title: Applications of Time Series Forecasting on _AAI-specific_ Datasets
           content: Ever thought of making future predictions related to DigiYatra/CAPEX Utilization at AAI? Time Series Forecasting has been applied to various problem areas in the industry, and this work presents an opportunity for you to contribute in this domain.
         - title: Applying Face Liveness Detection for Retired Employees
-          content:
+          content: Design a face-based liveness detection system that ensures only legitimate retired employees access their benefits, preventing spoofing via photos or videos.
         - title: Agentic AI for Automating Bid Evaluation
           content: Evaluation of bids is a tedious and often a repetitive task. The promise of Agentic AI presents itself as a viable solution to fasten up the bid evaluation process. This will result in faster shortlisting and finalization of bids.
     
