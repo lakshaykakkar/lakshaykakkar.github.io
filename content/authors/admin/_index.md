@@ -52,7 +52,7 @@ education:
   - area: MS, Diffusion Models
     institution: Indian Institute of Technology Delhi
     date_start: 2023-07-17
-    date_end: 
+    date_end: 2026-07-16
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
