@@ -2,7 +2,7 @@
 title: Teaching
 summary: My courses
 type: landing
-
+---
 _Provided that the competent authority approves me as your internship mentor, you will get a chance to contribute to the below problem areas._
 
 cascade:
