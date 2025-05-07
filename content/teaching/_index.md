@@ -1,6 +1,6 @@
 ---
 title: Intern@AAI
-summary: Internship Opportunities at AAI under me
+summary: Internship Opportunities at AAI
 type: landing
 ---
 
@@ -8,17 +8,19 @@ sections:
   - block: cards
     content: 
       title: Internship Problem Areas
-      text: Provided that the competent authority approves me as your internship mentor, you will get a chance to contribute to the below problem areas.
+      text: Explore key research/tech challenges open for interns.
       items:
-        - title: Retrieval Augmented Generation (RAG) for Information Retrieval from AAI Circulars/Documents
-          content: The aim is to leverage RAG and LLMs in order to provide the necessary response from the relevant circulars without having the employees struggling in searching for the relevant circulars.
-        - title: Applications of Time Series Forecasting on _AAI-specific_ Datasets
-          content: Ever thought of making future predictions related to DigiYatra/CAPEX Utilization at AAI? Time Series Forecasting has been applied to various problem areas in the industry, and this work presents an opportunity for you to contribute in this domain.
-        - title: Applying Face Liveness Detection for Retired Employees
-          content: Design a face-based liveness detection system that ensures only legitimate retired employees access their benefits, preventing spoofing via photos or videos.
-        - title: Agentic AI for Automating Bid Evaluation
-          content: Evaluation of bids is a tedious and often a repetitive task. The promise of Agentic AI presents itself as a viable solution to fasten up the bid evaluation process. This will result in faster shortlisting and finalization of bids.
-    
+        - title: RAG on AAI Documents
+          content: Use Retrieval-Augmented Generation to extract relevant content from circulars.
+
+        - title: Time Series Forecasting
+          content: Predict trends for CAPEX or DigiYatra using AAI-specific time series datasets.
+
+        - title: Face Liveness for Retiree Verification
+          content: Ensure retired employees can verify their identity securely via webcam or phone.
+
+        - title: Agentic AI for Bid Evaluation
+          content: Apply Agentic AI to automate bid shortlisting and scoring.
     design:
       view: compact
       columns: 2
