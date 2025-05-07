@@ -123,6 +123,7 @@ awards:
     icon: coursera
     summary: |
       Secured AIR 494 and 428 in GATE 2022 and 2023 respectively.
+
 #   - title: Blockchain Fundamentals
 #     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
 #     date: '2023-07-01'
@@ -144,6 +145,4 @@ awards:
 # ---
 
 ## About Me
-
 I am currently employed as an Assistant Manager IT at Airports Authority of India since 2019. Apart from my professional pursuits, I am pursuing research as part of my enrolment at Indian Institute of Technology, Delhi in the MS(Research) programme. I am fortunate to be advised by Prof. Srikanta Bedathur for my thesis.
----
