@@ -23,3 +23,4 @@ sections:
       view: compact
       columns: 2
       icon: true
+---
