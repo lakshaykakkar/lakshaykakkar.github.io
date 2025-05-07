@@ -68,18 +68,7 @@ work:
     date_end: ''
     summary: |2-
       Serving as an Assistant Manager IT at AAI since 2019. Contributed to vital projects and initiatives in AAI including Airsewa, NOCAS, BCAS and Airport Slot Allocation.
-  # - position: Backend Software Engineer
-  #   company_name: X
-  #   company_url: ''
-  #   company_logo: ''
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     Responsibilities include:
-  #     - Migrated infrastructure to a new data center
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+  
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -157,3 +146,4 @@ awards:
 ## About Me
 
 I am currently employed as an Assistant Manager IT at Airports Authority of India since 2019. Apart from my professional pursuits, I am pursuing research as part of my enrolment at Indian Institute of Technology, Delhi in the MS(Research) programme. I am fortunate to be advised by Prof. Srikanta Bedathur for my thesis.
+---
