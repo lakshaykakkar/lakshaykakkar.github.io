@@ -17,112 +17,111 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: AI Enthusiast
+role: Assistant Manager (IT) · MS(Research) Scholar
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Airports Authority of India
     url: https://www.aai.aero
+  - name: Indian Institute of Technology Delhi
+    url: https://home.iitd.ac.in
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/lakshay2015
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/gcushen
+    url: 'mailto:lakshay.218044@aaiaero.org'
+    label: Email
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://www.linkedin.com/in/lakshay2015
+    label: LinkedIn
+  - icon: brands/github
+    url: https://github.com/lakshay2015
+    label: GitHub
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Fair and accountable AI systems
+  - Diffusion models for vision tasks
+  - Operations research for aviation
+  - Data visualization & storytelling
 
 education:
-  - area: MS, Artificial Intelligence (ongoing)
+  - area: MS (Research), Computer Science and Engineering
     institution: Indian Institute of Technology Delhi
-    date_start: 2023-07-17
+    date_start: 2023-07-01
     summary: |
-      Pursuing MS(R) in Diffusion Models. Fortunate to be advised by Prof. Srikanta Bedathur and supported by my employer, AAI.
-  - area: BTech, CSE
+      Working with Prof. Srikanta Bedathur on fairness-aware diffusion models and transparent decision systems for aviation and public policy.
+  - area: B.Tech, Computer Science and Engineering
     institution: Guru Gobind Singh Indraprastha University
     date_start: 2013-07-01
-    date_end: 2017-05-31
+    date_end: 2017-06-01
+    summary: |
+      Graduated with distinction focusing on algorithms, systems design, and applied analytics.
     
 work:
-  - position: Assistant Manager IT
+  - position: Assistant Manager (Information Technology)
     company_name: Airports Authority of India
     company_url: 'https://www.aai.aero'
     company_logo: ''
     date_start: 2019-04-08
-    date_end: ''
-    summary: |2-
-      Serving as an Assistant Manager IT at AAI since 2019. Contributed to vital projects and initiatives in AAI including Airsewa, NOCAS, BCAS and Airport Slot Allocation.
+    summary: |-
+      Lead engineer for analytics and digitisation initiatives such as Airsewa, NOCAS, BCAS integrations, and Airport Slot Allocation systems. Coordinate cross-functional teams, build decision dashboards, and champion responsible AI adoption across airport operations.
   
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Data & AI
     items:
-      - name: Python
+      - name: Machine Learning & Fairness
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        percent: 90
+        icon: sparkles
+      - name: Statistical Modelling
         description: ''
-        percent: 100
+        percent: 85
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
+      - name: Operations Research
         description: ''
         percent: 80
-        icon: camera
+        icon: squares-2x2
+  - name: Tools & Platforms
+    color: '#403dff'
+    color_border: '#6360ff'
+    items:
+      - name: Python (PyTorch, scikit-learn)
+        description: ''
+        percent: 90
+        icon: code-bracket
+      - name: SQL & Data Engineering
+        description: ''
+        percent: 80
+        icon: database
+      - name: Tableau & Power BI
+        description: ''
+        percent: 75
+        icon: presentation-chart-line
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Hindi
+    percent: 95
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Graduate Aptitude Test in Engineering (GATE)
-    # url: https://gate.iitk.ac.in/
-    date: '2022-03-16'
-    awarder: Coursera
-    icon: coursera
+  - title: Graduate Aptitude Test in Engineering (GATE) 2023
+    date: '2023-03-16'
+    awarder: Indian Institute of Technology Kanpur
     summary: |
-      Secured AIR 494 and 428 in GATE 2022 and 2023 respectively.
+      Secured All India Rank 428 in Computer Science & Engineering.
+  - title: Graduate Aptitude Test in Engineering (GATE) 2022
+    date: '2022-03-16'
+    awarder: Indian Institute of Technology Kharagpur
+    summary: |
+      Secured All India Rank 494 in Computer Science & Engineering.
 
 #   - title: Blockchain Fundamentals
 #     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
@@ -147,4 +146,4 @@ awards:
 
 ## About Me
 
-I am currently employed as an Assistant Manager IT at Airports Authority of India since 2019. Apart from my professional pursuits, I am pursuing research as part of my enrolment at Indian Institute of Technology, Delhi in the MS(Research) programme. I am fortunate to be advised by Prof. Srikanta Bedathur for my thesis.
+Motivated IT professional with four years of experience at Airports Authority of India and a strong academic grounding at IIT Delhi. I build data products that bridge public infrastructure and responsible AI—spanning analytics dashboards, fair machine learning systems, and diffusion-model research for aviation use cases. I enjoy collaborating on projects that improve operational efficiency while remaining transparent and equitable.

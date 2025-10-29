@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: A sample of the responsible AI, optimisation, and analytics projects that I am currently building across IIT Delhi and Airports Authority of India collaborations.
       filters:
         folders:
           - project
