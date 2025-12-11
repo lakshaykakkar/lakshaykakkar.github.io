@@ -15,7 +15,7 @@ const Experience: React.FC = () => {
                 Airports Authority of India
               </Typography>
               <Typography variant="subtitle1" color="text.secondary">
-                Assistant Manager, IT
+                Assistant Manager IT
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Apr 2019 - Present
