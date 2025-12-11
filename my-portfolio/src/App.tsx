@@ -27,7 +27,7 @@ const App: React.FC = () => {
               gutterBottom
               sx={{
                 mb: 4,
-                background: 'linear-gradient(135deg, #003366 0%, #0056A3 100%)',
+                background: (theme) => `linear-gradient(135deg, ${theme.palette.primary.main} 0%, ${theme.palette.primary.light} 100%)`,
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
                 backgroundClip: 'text',

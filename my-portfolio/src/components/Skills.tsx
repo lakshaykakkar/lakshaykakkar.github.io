@@ -42,7 +42,7 @@ const Skills: React.FC = () => {
     },
   ];
 
-  const getSkillStyle = (index: number) => skillStyles[index % 3];
+  const getSkillStyle = (index: number) => skillStyles[index % skillStyles.length];
 
   return (
     <Container maxWidth="md" sx={{ my: 4 }}>
