@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         Assistant Manager (IT) at Airports Authority of India
       </Typography>
       <Typography variant="h6" component="h3" color="text.secondary">
-        Pursuing MS(Research) in Diffusion Models from IIT Delhi, focusing on Synthetic Tabular Data Generation
+        Pursuing MS(Research) in Diffusion Models at IIT Delhi, focusing on Synthetic Tabular Data Generation
       </Typography>
       <List>
         <ListItem>
