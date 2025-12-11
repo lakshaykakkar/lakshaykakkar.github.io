@@ -28,12 +28,9 @@ const Skills: React.FC = () => {
         <Chip label="Machine Learning" />
         <Chip label="Deep Learning" />
         <Chip label="Diffusion Models" />
-        <Chip label="Variational Autoencoders" />
-        <Chip label="Transformers" />
-        <Chip label="Recurrent Neural Networks (RNN)" />
-        <Chip label="Convolutional Neural Networks (CNN)" />
         <Chip label="Large Language Models (LLMs)" />
         <Chip label="Algorithms and Data Structures" />
+        <Chip label="Hyperparameter Tuning" />
       </Box>
 
       <Typography variant="h6" component="h3" gutterBottom>
