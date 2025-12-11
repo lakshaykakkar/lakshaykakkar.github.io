@@ -76,10 +76,6 @@ const theme = createTheme({
       fontWeight: 400,
       letterSpacing: '0.01em',
     },
-    body2: {
-      fontWeight: 400,
-      letterSpacing: '0.01em',
-    },
   },
   components: {
     MuiCard: {

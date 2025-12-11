@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="120" height="120">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="120" height="120" role="img" aria-labelledby="iit-delhi-logo-title">
+  <title id="iit-delhi-logo-title">Indian Institute of Technology Delhi Logo</title>
   <!-- Official IIT Delhi Logo Representation -->
   <!-- Outer Circle Border -->
   <circle cx="100" cy="100" r="95" fill="none" stroke="#003D6D" stroke-width="2.5"/>
