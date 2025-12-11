@@ -26,19 +26,19 @@ const Skills: React.FC = () => {
 
   const skillStyles = [
     {
-      bgcolor: 'rgba(0, 51, 102, 0.1)',
+      bgcolor: 'rgba(26, 54, 93, 0.1)',
       color: 'primary.main',
       borderColor: 'primary.light',
     },
     {
-      bgcolor: 'rgba(66, 153, 225, 0.15)',
+      bgcolor: 'rgba(59, 130, 246, 0.15)',
       color: 'info.main',
       borderColor: 'info.light',
     },
     {
-      bgcolor: 'rgba(255, 215, 0, 0.2)',
-      color: 'secondary.dark',
-      borderColor: 'secondary.main',
+      bgcolor: 'rgba(13, 148, 136, 0.15)',
+      color: 'secondary.main',
+      borderColor: 'secondary.light',
     },
   ];
 
@@ -140,10 +140,10 @@ const Skills: React.FC = () => {
             key={index}
             label={tool}
             sx={{
-              bgcolor: 'rgba(0, 51, 102, 0.06)',
+              bgcolor: 'rgba(26, 54, 93, 0.06)',
               color: 'text.primary',
               border: '1px solid',
-              borderColor: 'rgba(0, 51, 102, 0.2)',
+              borderColor: 'rgba(26, 54, 93, 0.2)',
               fontWeight: 500,
             }}
           />

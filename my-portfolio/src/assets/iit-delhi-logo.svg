@@ -1,39 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="120" height="120">
-  <!-- IIT Delhi Logo Design -->
-  <!-- Outer Circle -->
-  <circle cx="100" cy="100" r="95" fill="#003366" stroke="#FFD700" stroke-width="3"/>
+  <!-- Official IIT Delhi Logo Representation -->
+  <!-- Outer Circle Border -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#003D6D" stroke-width="2.5"/>
   
-  <!-- Inner Circle -->
-  <circle cx="100" cy="100" r="85" fill="#003366" stroke="#FFD700" stroke-width="1"/>
+  <!-- Inner Shield/Circle -->
+  <circle cx="100" cy="100" r="88" fill="#FFFFFF" stroke="#003D6D" stroke-width="1.5"/>
   
-  <!-- Stylized Knowledge Symbol (Book) -->
-  <g transform="translate(100, 80)">
-    <!-- Open Book -->
-    <path d="M -30 -10 Q -30 -20 -15 -22 Q 0 -24 0 -24 Q 0 -24 15 -22 Q 30 -20 30 -10 L 30 20 Q 30 25 15 23 Q 0 21 0 21 Q 0 21 -15 23 Q -30 25 -30 20 Z" 
-          fill="#FFD700" stroke="#FFFFFF" stroke-width="1.5"/>
-    <!-- Book Spine -->
-    <line x1="0" y1="-24" x2="0" y2="21" stroke="#003366" stroke-width="2"/>
-    <!-- Book Lines -->
-    <line x1="-25" y1="-5" x2="-5" y2="-7" stroke="#003366" stroke-width="1" opacity="0.6"/>
-    <line x1="-25" y1="0" x2="-5" y2="-2" stroke="#003366" stroke-width="1" opacity="0.6"/>
-    <line x1="-25" y1="5" x2="-5" y2="3" stroke="#003366" stroke-width="1" opacity="0.6"/>
-    <line x1="5" y1="-7" x2="25" y2="-5" stroke="#003366" stroke-width="1" opacity="0.6"/>
-    <line x1="5" y1="-2" x2="25" y2="0" stroke="#003366" stroke-width="1" opacity="0.6"/>
-    <line x1="5" y1="3" x2="25" y2="5" stroke="#003366" stroke-width="1" opacity="0.6"/>
+  <!-- Central Wheel (Dharmachakra-inspired design) -->
+  <g transform="translate(100, 100)">
+    <!-- Central Hub -->
+    <circle cx="0" cy="0" r="12" fill="#003D6D" stroke="#003D6D" stroke-width="2"/>
+    
+    <!-- 24 Spokes radiating from center -->
+    <g id="spokes">
+      <line x1="0" y1="0" x2="0" y2="-45" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="11.3" y2="-43.5" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="21.8" y2="-40" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="31.8" y2="-31.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="40" y2="-21.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="43.5" y2="-11.3" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="45" y2="0" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="43.5" y2="11.3" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="40" y2="21.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="31.8" y2="31.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="21.8" y2="40" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="11.3" y2="43.5" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="0" y2="45" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-11.3" y2="43.5" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-21.8" y2="40" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-31.8" y2="31.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-40" y2="21.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-43.5" y2="11.3" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-45" y2="0" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-43.5" y2="-11.3" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-40" y2="-21.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-31.8" y2="-31.8" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-21.8" y2="-40" stroke="#003D6D" stroke-width="1.5"/>
+      <line x1="0" y1="0" x2="-11.3" y2="-43.5" stroke="#003D6D" stroke-width="1.5"/>
+    </g>
+    
+    <!-- Outer Ring -->
+    <circle cx="0" cy="0" r="48" fill="none" stroke="#003D6D" stroke-width="2"/>
   </g>
   
-  <!-- Torch of Knowledge -->
-  <g transform="translate(100, 130)">
-    <rect x="-3" y="-15" width="6" height="20" fill="#FFD700"/>
-    <polygon points="0,-20 -8,-15 8,-15" fill="#FF6B35"/>
-    <ellipse cx="0" cy="-22" rx="4" ry="6" fill="#FFD700" opacity="0.8"/>
+  <!-- Top Banner with "IIT" -->
+  <g transform="translate(100, 25)">
+    <rect x="-35" y="-8" width="70" height="16" rx="2" fill="#003D6D"/>
+    <text x="0" y="3" font-family="'Times New Roman', serif" font-size="12" font-weight="bold" 
+          text-anchor="middle" fill="#FFFFFF" letter-spacing="1">IIT DELHI</text>
   </g>
   
-  <!-- Text: IIT -->
-  <text x="100" y="175" font-family="serif" font-size="24" font-weight="bold" 
-        text-anchor="middle" fill="#FFD700" letter-spacing="2">IIT</text>
+  <!-- Bottom Text -->
+  <text x="100" y="180" font-family="'Times New Roman', serif" font-size="9" font-weight="600" 
+        text-anchor="middle" fill="#003D6D" letter-spacing="0.5">भारतीय प्रौद्योगिकी संस्थान दिल्ली</text>
   
-  <!-- Text: DELHI -->
-  <text x="100" y="190" font-family="serif" font-size="12" font-weight="normal" 
-        text-anchor="middle" fill="#FFFFFF" letter-spacing="3">DELHI</text>
+  <!-- Motto Text -->
+  <text x="100" y="192" font-family="'Times New Roman', serif" font-size="7" font-weight="normal" 
+        text-anchor="middle" fill="#666666" letter-spacing="0.3">ज्ञानं परमं ध्येयम् (Knowledge is Supreme)</text>
 </svg>
