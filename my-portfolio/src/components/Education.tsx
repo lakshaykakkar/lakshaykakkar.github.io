@@ -11,7 +11,7 @@ const Education: React.FC = () => {
         <Card>
           <CardContent>
             <Typography variant="h5" component="h3">
-              MS (CSE)
+              M.S. (Research), Artificial Intelligence
             </Typography>
             <Typography variant="subtitle1" color="text.secondary">
               Indian Institute of Technology, Delhi
