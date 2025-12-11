@@ -10,23 +10,20 @@ const Projects: React.FC = () => {
       <Card sx={{ mb: 2 }}>
         <CardContent>
           <Typography variant="h5" component="h3">
-            Synthetic Tabular Data Generation using Diffusion Models
+            Conditional Synthetic Tabular Data Generation through Structured Diffusion
           </Typography>
           <Typography variant="subtitle1" color="text.secondary">
             Guide: Prof. Srikanta Bedathur
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            August 2024 - ongoing
+            January 2025 - ongoing
           </Typography>
           <List>
             <ListItem>
-              <ListItemText primary="This project explores the application of diffusion models for generating high-quality, privacy preserving synthetic tabular data." />
+              <ListItemText primary="This project explores the application of diffusion models for generating high-fidelity synthetic tabular data satisfying User-Defined Constraints." />
             </ListItem>
             <ListItem>
-              <ListItemText primary="Our research aims to focus on plausibility of the data generated which is not given enough emphasis by existing works in this area" />
-            </ListItem>
-            <ListItem>
-              <ListItemText primary="We will also be looking at ways to incorporate domain level constraints into the model which are not necessarily captured by the dataset instance available at hand" />
+              <ListItemText primary="Our research also aims to focus on plausibility of the data generated which is not given enough emphasis by existing works in this area" />
             </ListItem>
           </List>
         </CardContent>
