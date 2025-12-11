@@ -11,17 +11,17 @@ const Header: React.FC = () => {
         Assistant Manager (IT) at Airports Authority of India
       </Typography>
       <Typography variant="h6" component="h3" color="text.secondary">
-        Pursuing MS(Research) in CSE from IIT Delhi
+        Pursuing MS(Research) in Diffusion Models from IIT Delhi, focusing on Synthetic Tabular Data Generation
       </Typography>
       <List>
         <ListItem>
-          <ListItemText primary="+91-8860100770" />
+          <ListItemText primary="+91-88601 00770" />
         </ListItem>
         <ListItem>
           <ListItemText primary="lakshayk7k@gmail.com" />
         </ListItem>
         <ListItem>
-          <ListItemText primary="csy237548@iitd.ac.in" />
+          <ListItemText primary="lakshay@cse.iitd.ac.in" />
         </ListItem>
       </List>
     </Container>
