@@ -52,10 +52,10 @@
   </g>
   
   <!-- Bottom Text -->
-  <text x="100" y="180" font-family="'Times New Roman', serif" font-size="9" font-weight="600" 
+  <text x="100" y="180" font-family="'Times New Roman', serif" font-size="10" font-weight="600" 
         text-anchor="middle" fill="#003D6D" letter-spacing="0.5">भारतीय प्रौद्योगिकी संस्थान दिल्ली</text>
   
   <!-- Motto Text -->
-  <text x="100" y="192" font-family="'Times New Roman', serif" font-size="7" font-weight="normal" 
-        text-anchor="middle" fill="#666666" letter-spacing="0.3">ज्ञानं परमं ध्येयम् (Knowledge is Supreme)</text>
+  <text x="100" y="192" font-family="'Times New Roman', serif" font-size="9" font-weight="normal" 
+        text-anchor="middle" fill="#333333" letter-spacing="0.3">ज्ञानं परमं ध्येयम् (Knowledge is Supreme)</text>
 </svg>
