@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="120" height="120">
+  <!-- IIT Delhi Logo Design -->
+  <!-- Outer Circle -->
+  <circle cx="100" cy="100" r="95" fill="#003366" stroke="#FFD700" stroke-width="3"/>
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="85" fill="#003366" stroke="#FFD700" stroke-width="1"/>
+  
+  <!-- Stylized Knowledge Symbol (Book) -->
+  <g transform="translate(100, 80)">
+    <!-- Open Book -->
+    <path d="M -30 -10 Q -30 -20 -15 -22 Q 0 -24 0 -24 Q 0 -24 15 -22 Q 30 -20 30 -10 L 30 20 Q 30 25 15 23 Q 0 21 0 21 Q 0 21 -15 23 Q -30 25 -30 20 Z" 
+          fill="#FFD700" stroke="#FFFFFF" stroke-width="1.5"/>
+    <!-- Book Spine -->
+    <line x1="0" y1="-24" x2="0" y2="21" stroke="#003366" stroke-width="2"/>
+    <!-- Book Lines -->
+    <line x1="-25" y1="-5" x2="-5" y2="-7" stroke="#003366" stroke-width="1" opacity="0.6"/>
+    <line x1="-25" y1="0" x2="-5" y2="-2" stroke="#003366" stroke-width="1" opacity="0.6"/>
+    <line x1="-25" y1="5" x2="-5" y2="3" stroke="#003366" stroke-width="1" opacity="0.6"/>
+    <line x1="5" y1="-7" x2="25" y2="-5" stroke="#003366" stroke-width="1" opacity="0.6"/>
+    <line x1="5" y1="-2" x2="25" y2="0" stroke="#003366" stroke-width="1" opacity="0.6"/>
+    <line x1="5" y1="3" x2="25" y2="5" stroke="#003366" stroke-width="1" opacity="0.6"/>
+  </g>
+  
+  <!-- Torch of Knowledge -->
+  <g transform="translate(100, 130)">
+    <rect x="-3" y="-15" width="6" height="20" fill="#FFD700"/>
+    <polygon points="0,-20 -8,-15 8,-15" fill="#FF6B35"/>
+    <ellipse cx="0" cy="-22" rx="4" ry="6" fill="#FFD700" opacity="0.8"/>
+  </g>
+  
+  <!-- Text: IIT -->
+  <text x="100" y="175" font-family="serif" font-size="24" font-weight="bold" 
+        text-anchor="middle" fill="#FFD700" letter-spacing="2">IIT</text>
+  
+  <!-- Text: DELHI -->
+  <text x="100" y="190" font-family="serif" font-size="12" font-weight="normal" 
+        text-anchor="middle" fill="#FFFFFF" letter-spacing="3">DELHI</text>
+</svg>
