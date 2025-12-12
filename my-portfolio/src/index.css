@@ -1,5 +1,7 @@
 body {
-  font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 0;
   padding: 0;
   -webkit-font-smoothing: antialiased;
@@ -21,15 +23,15 @@ h1, h2, h3 {
 
 h1 {
   font-size: 2em;
-  color: #003366;
+  color: #1a365d;
 }
 
 h2 {
   font-size: 1.5em;
   margin-top: 20px;
-  border-bottom: 2px solid #003366;
+  border-bottom: 2px solid #1a365d;
   padding-bottom: 8px;
-  color: #003366;
+  color: #1a365d;
 }
 
 ul {
@@ -52,12 +54,12 @@ html {
 
 /* Selection color */
 ::selection {
-  background-color: #FFD700;
-  color: #003366;
+  background-color: #0d9488;
+  color: #ffffff;
 }
 
 ::-moz-selection {
-  background-color: #FFD700;
-  color: #003366;
+  background-color: #0d9488;
+  color: #ffffff;
 }
 

@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         sx={{
           textAlign: 'center',
           p: 4,
-          background: 'linear-gradient(135deg, #FFFFFF 0%, #F8FBFF 100%)',
+          background: 'linear-gradient(135deg, #ffffff 0%, #f8fafc 100%)',
           border: '2px solid',
           borderColor: 'primary.main',
           borderRadius: 3,

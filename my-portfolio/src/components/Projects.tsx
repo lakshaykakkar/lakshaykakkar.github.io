@@ -45,7 +45,7 @@ const Projects: React.FC = () => {
               borderLeft: '4px solid',
               borderColor: 'secondary.main',
               mb: 1,
-              bgcolor: 'rgba(0, 51, 102, 0.02)',
+              bgcolor: 'rgba(26, 54, 93, 0.02)',
               borderRadius: 1,
             }}>
               <ListItemText 
@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
               borderLeft: '4px solid',
               borderColor: 'secondary.main',
               mb: 1,
-              bgcolor: 'rgba(0, 51, 102, 0.02)',
+              bgcolor: 'rgba(26, 54, 93, 0.02)',
               borderRadius: 1,
             }}>
               <ListItemText 
@@ -68,7 +68,7 @@ const Projects: React.FC = () => {
             <ListItem sx={{ 
               borderLeft: '4px solid',
               borderColor: 'secondary.main',
-              bgcolor: 'rgba(0, 51, 102, 0.02)',
+              bgcolor: 'rgba(26, 54, 93, 0.02)',
               borderRadius: 1,
             }}>
               <ListItemText 
@@ -99,13 +99,13 @@ const Projects: React.FC = () => {
                 sx={{
                   px: 2,
                   py: 1.5,
-                  bgcolor: 'rgba(0, 51, 102, 0.04)',
+                  bgcolor: 'rgba(26, 54, 93, 0.04)',
                   borderRadius: 2,
                   borderLeft: '3px solid',
                   borderColor: 'info.main',
                   transition: 'all 0.2s ease',
                   '&:hover': {
-                    bgcolor: 'rgba(0, 51, 102, 0.08)',
+                    bgcolor: 'rgba(26, 54, 93, 0.08)',
                     transform: 'translateX(8px)',
                   },
                 }}

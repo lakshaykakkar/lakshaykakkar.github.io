@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <Box
         sx={{
           minHeight: '100vh',
-          background: 'linear-gradient(135deg, #F5F7FA 0%, #E6F2FF 50%, #F5F7FA 100%)',
+          background: 'linear-gradient(135deg, #f8fafc 0%, #f1f5f9 50%, #f8fafc 100%)',
         }}
       >
         <Container maxWidth="lg">
