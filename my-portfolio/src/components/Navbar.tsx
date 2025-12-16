@@ -30,6 +30,8 @@ const navItems: NavItem[] = [
   { label: 'Skills', href: '#skills' },
 ];
 
+const SCROLL_OFFSET = 100; // Offset in pixels to determine active section
+
 const Navbar: React.FC = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('about');
@@ -56,7 +58,7 @@ const Navbar: React.FC = () => {
         element: document.querySelector(item.href)
       }));
 
-      const scrollPosition = window.scrollY + 100;
+      const scrollPosition = window.scrollY + SCROLL_OFFSET;
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = sections[i];
