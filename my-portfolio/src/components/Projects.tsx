@@ -3,7 +3,7 @@ import { Container, Typography, Card, CardContent, List, ListItem, ListItemText,
 
 const Projects: React.FC = () => {
   return (
-    <Container maxWidth="md" sx={{ my: 4 }}>
+    <Container id="projects" maxWidth="md" sx={{ my: 4 }}>
       <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 3 }}>
         Research Project at IIT Delhi
       </Typography>

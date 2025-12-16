@@ -3,7 +3,7 @@ import { Container, Typography, Paper, Box } from '@mui/material';
 
 const Header: React.FC = () => {
   return (
-    <Container maxWidth="md" sx={{ mb: 6 }}>
+    <Container id="about" maxWidth="md" sx={{ mb: 6 }}>
       <Paper
         elevation={3}
         sx={{
