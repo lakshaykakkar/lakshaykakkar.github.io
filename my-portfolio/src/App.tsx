@@ -2,6 +2,7 @@ import React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { CssBaseline, Container, Box, Typography } from '@mui/material';
 import theme from './theme';
+import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -12,6 +13,7 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+      <Navbar />
       <Box
         sx={{
           minHeight: '100vh',

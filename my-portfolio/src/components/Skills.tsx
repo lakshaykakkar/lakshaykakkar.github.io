@@ -45,7 +45,7 @@ const Skills: React.FC = () => {
   const getSkillStyle = (index: number) => skillStyles[index % skillStyles.length];
 
   return (
-    <Container maxWidth="md" sx={{ my: 4 }}>
+    <Container id="skills" maxWidth="md" sx={{ my: 4 }}>
       <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 3 }}>
         Key Courses Taken at IIT Delhi
       </Typography>

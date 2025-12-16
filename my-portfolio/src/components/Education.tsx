@@ -4,7 +4,7 @@ import iitDelhiLogo from '../assets/iit-delhi-logo.svg';
 
 const Education: React.FC = () => {
   return (
-    <Container maxWidth="md" sx={{ my: 4 }}>
+    <Container id="education" maxWidth="md" sx={{ my: 4 }}>
       <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 3 }}>
         Education
       </Typography>

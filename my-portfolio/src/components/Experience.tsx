@@ -3,7 +3,7 @@ import { Container, Typography, Card, CardContent, Stack, Box } from '@mui/mater
 
 const Experience: React.FC = () => {
   return (
-    <Container maxWidth="md" sx={{ my: 4 }}>
+    <Container id="experience" maxWidth="md" sx={{ my: 4 }}>
       <Typography variant="h4" component="h2" gutterBottom sx={{ mb: 3 }}>
         Experience
       </Typography>
