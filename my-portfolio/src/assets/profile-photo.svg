@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#1a365d"/>
+  
+  <!-- Person Icon -->
+  <!-- Head -->
+  <circle cx="100" cy="70" r="30" fill="#ffffff"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="45" ry="60" fill="#ffffff"/>
+  
+  <!-- Initials (LK for Lakshay Kakkar) -->
+  <text x="100" y="80" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1a365d" text-anchor="middle">LK</text>
+</svg>
