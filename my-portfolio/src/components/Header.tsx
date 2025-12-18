@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Typography, Paper, Box } from '@mui/material';
+import profilePhoto from '../assets/profile-photo.svg';
 
 const Header: React.FC = () => {
   return (
@@ -15,6 +16,34 @@ const Header: React.FC = () => {
           borderRadius: 3,
         }}
       >
+        {/* Profile Photo */}
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            mb: 3,
+          }}
+        >
+          <Box
+            component="img"
+            src={profilePhoto}
+            alt="Lakshay Kakkar"
+            sx={{
+              width: { xs: 150, sm: 180 },
+              height: { xs: 150, sm: 180 },
+              borderRadius: '50%',
+              border: '4px solid',
+              borderColor: 'primary.main',
+              boxShadow: '0 8px 16px rgba(26, 54, 93, 0.2), 0 4px 8px rgba(13, 148, 136, 0.15)',
+              objectFit: 'cover',
+              transition: 'all 0.3s ease',
+              '&:hover': {
+                transform: 'scale(1.05)',
+                boxShadow: '0 12px 24px rgba(26, 54, 93, 0.25), 0 6px 12px rgba(13, 148, 136, 0.2)',
+              },
+            }}
+          />
+        </Box>
         <Typography
           variant="h3"
           component="h1"
