@@ -34,6 +34,7 @@ const Header: React.FC = () => {
               borderRadius: '50%',
               border: '4px solid',
               borderColor: 'primary.main',
+              // Shadow colors derived from theme: primary.main (#1a365d) and secondary.main (#0d9488)
               boxShadow: '0 8px 16px rgba(26, 54, 93, 0.2), 0 4px 8px rgba(13, 148, 136, 0.15)',
               objectFit: 'cover',
               transition: 'all 0.3s ease',
