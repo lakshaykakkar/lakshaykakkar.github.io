@@ -1,115 +1,88 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme, alpha } from '@mui/material/styles';
 
-// Elegant and modern color palette
+const primary = {
+  main: '#2563eb',       // indigo-600
+  light: '#60a5fa',      // indigo-400
+  dark: '#1d4ed8',       // indigo-700
+  contrastText: '#ffffff',
+};
+
+const secondary = {
+  main: '#14b8a6',       // teal-500
+  light: '#2dd4bf',      // teal-400
+  dark: '#0f766e',       // teal-700
+  contrastText: '#ffffff',
+};
+
+const gray = {
+  50: '#f8fafc',
+  100: '#f1f5f9',
+  200: '#e2e8f0',
+  300: '#cbd5e1',
+  700: '#334155',
+  800: '#1e293b',
+  900: '#0f172a',
+};
+
 const theme = createTheme({
   palette: {
     mode: 'light',
-    primary: {
-      main: '#1a365d', // Deep navy blue - elegant and professional
-      light: '#2d4a7c',
-      dark: '#0f2544',
-      contrastText: '#ffffff',
-    },
-    secondary: {
-      main: '#0d9488', // Elegant teal accent
-      light: '#14b8a6',
-      dark: '#0f766e',
-      contrastText: '#ffffff',
-    },
+    primary,
+    secondary,
     background: {
-      default: '#f8fafc', // Clean, light gray-blue background
+      default: gray[50],
       paper: '#ffffff',
     },
+    divider: gray[200],
     text: {
-      primary: '#1e293b', // Dark slate for primary text
-      secondary: '#64748b', // Muted slate for secondary text
-    },
-    error: {
-      main: '#dc2626',
-    },
-    warning: {
-      main: '#f59e0b',
-    },
-    info: {
-      main: '#3b82f6',
-    },
-    success: {
-      main: '#10b981',
+      primary: gray[900],
+      secondary: gray[700],
     },
   },
   typography: {
-    fontFamily: '"Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", sans-serif',
-    h1: {
-      fontWeight: 700,
-      fontSize: '2.5rem',
-      color: '#1a365d',
-      letterSpacing: '-0.02em',
-    },
-    h2: {
-      fontWeight: 700,
-      fontSize: '2rem',
-      color: '#1a365d',
-      letterSpacing: '-0.01em',
-    },
-    h3: {
-      fontWeight: 600,
-      fontSize: '1.75rem',
-      color: '#1a365d',
-      letterSpacing: '-0.01em',
-    },
-    h4: {
-      fontWeight: 600,
-      fontSize: '1.5rem',
-      color: '#1a365d',
-    },
-    h5: {
-      fontWeight: 600,
-      fontSize: '1.25rem',
-      color: '#1e293b',
-    },
-    h6: {
-      fontWeight: 600,
-      fontSize: '1rem',
-      color: '#1e293b',
-    },
-    body1: {
-      fontWeight: 400,
-      letterSpacing: '0.01em',
-    },
+    fontFamily: '"Inter", "Inter var", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif',
+    h1: { fontWeight: 800, fontSize: '2.75rem', letterSpacing: '-0.02em', color: gray[900] },
+    h2: { fontWeight: 700, fontSize: '2.1rem', letterSpacing: '-0.015em', color: gray[900] },
+    h3: { fontWeight: 700, fontSize: '1.8rem', letterSpacing: '-0.01em', color: gray[900] },
+    h4: { fontWeight: 700, fontSize: '1.5rem', color: gray[900] },
+    h5: { fontWeight: 600, fontSize: '1.25rem', color: gray[800] },
+    h6: { fontWeight: 600, fontSize: '1.05rem', color: gray[800] },
+    subtitle1: { fontWeight: 600, color: gray[800] },
+    body1: { letterSpacing: '0.005em', lineHeight: 1.7 },
+    body2: { letterSpacing: '0.01em', color: gray[700], lineHeight: 1.6 },
+    button: { fontWeight: 700, letterSpacing: '0.01em' },
+  },
+  shape: {
+    borderRadius: 12,
   },
   components: {
-    MuiCard: {
+    MuiCssBaseline: {
       styleOverrides: {
-        root: {
-          borderRadius: 12,
-          boxShadow: '0 1px 3px rgba(15, 23, 42, 0.08), 0 1px 2px rgba(15, 23, 42, 0.06)',
-          transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-          border: '1px solid rgba(226, 232, 240, 0.8)',
-          '&:hover': {
-            boxShadow: '0 10px 20px rgba(15, 23, 42, 0.1), 0 3px 6px rgba(15, 23, 42, 0.08)',
-            transform: 'translateY(-2px)',
-            borderColor: 'rgba(13, 148, 136, 0.3)',
-          },
+        body: {
+          background: `radial-gradient(circle at 20% 20%, ${alpha(primary.light, 0.12)}, transparent 32%),\n                       radial-gradient(circle at 80% 0%, ${alpha(secondary.light, 0.12)}, transparent 30%),\n                       ${gray[50]}`,
         },
       },
     },
-    MuiChip: {
+    MuiAppBar: {
       styleOverrides: {
         root: {
-          borderRadius: 8,
-          fontWeight: 500,
-          transition: 'all 0.2s ease-in-out',
-          '&:hover': {
-            transform: 'scale(1.05)',
-            boxShadow: '0 2px 8px rgba(15, 23, 42, 0.15)',
-          },
+          backgroundColor: alpha('#ffffff', 0.85),
+          backdropFilter: 'blur(12px)',
+          boxShadow: '0 8px 24px rgba(15, 23, 42, 0.08)',
         },
-        filled: {
-          backgroundColor: '#f1f5f9',
-          color: '#1e293b',
-          border: '1px solid #e2e8f0',
+      },
+    },
+    MuiCard: {
+      styleOverrides: {
+        root: {
+          borderRadius: 14,
+          border: `1px solid ${alpha(gray[200], 0.9)}`,
+          boxShadow: '0 12px 30px rgba(15, 23, 42, 0.06)',
+          transition: 'transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease',
           '&:hover': {
-            backgroundColor: '#e2e8f0',
+            transform: 'translateY(-3px)',
+            boxShadow: '0 16px 40px rgba(15, 23, 42, 0.1)',
+            borderColor: alpha(primary.main, 0.25),
           },
         },
       },
@@ -117,76 +90,76 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: 8,
+          borderRadius: 10,
           textTransform: 'none',
-          fontWeight: 600,
-          padding: '10px 24px',
-          transition: 'all 0.3s ease',
-          '&:hover': {
-            transform: 'translateY(-2px)',
-            boxShadow: '0 4px 12px rgba(15, 23, 42, 0.15)',
-          },
+          padding: '10px 22px',
+          fontWeight: 700,
         },
         contained: {
-          boxShadow: '0 1px 3px rgba(15, 23, 42, 0.1)',
+          boxShadow: '0 10px 24px rgba(37, 99, 235, 0.18)',
+          '&:hover': { boxShadow: '0 14px 32px rgba(37, 99, 235, 0.24)' },
         },
-      },
-    },
-    MuiListItem: {
-      styleOverrides: {
-        root: {
-          transition: 'background-color 0.2s ease',
+        outlined: {
+          borderWidth: 1.5,
           '&:hover': {
-            backgroundColor: 'rgba(26, 54, 93, 0.04)',
+            borderWidth: 1.5,
+            backgroundColor: alpha(primary.main, 0.06),
           },
         },
       },
     },
-    MuiListItemText: {
+    MuiChip: {
       styleOverrides: {
-        primary: {
-          color: '#1e293b',
+        root: {
+          borderRadius: 10,
+          fontWeight: 600,
+        },
+        filled: {
+          backgroundColor: gray[100],
+          color: gray[800],
+          border: `1px solid ${gray[200]}`,
+          '&:hover': {
+            backgroundColor: gray[200],
+          },
+        },
+      },
+    },
+    MuiPaper: {
+      styleOverrides: {
+        root: {
+          borderRadius: 14,
         },
       },
     },
     MuiDivider: {
       styleOverrides: {
         root: {
-          borderColor: '#e2e8f0',
+          borderColor: gray[200],
+        },
+      },
+    },
+    MuiListItem: {
+      styleOverrides: {
+        root: {
+          borderRadius: 10,
+          transition: 'background-color 160ms ease',
+          '&:hover': {
+            backgroundColor: alpha(primary.main, 0.05),
+          },
+        },
+      },
+    },
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          fontWeight: 600,
+          color: primary.main,
+          textDecoration: 'none',
+          '&:hover': { textDecoration: 'underline' },
         },
       },
     },
   },
-  shape: {
-    borderRadius: 8,
-  },
-  shadows: [
-    'none',
-    '0 1px 2px rgba(15, 23, 42, 0.05)',
-    '0 1px 3px rgba(15, 23, 42, 0.08)',
-    '0 2px 4px rgba(15, 23, 42, 0.1)',
-    '0 4px 6px rgba(15, 23, 42, 0.1)',
-    '0 6px 8px rgba(15, 23, 42, 0.12)',
-    '0 8px 10px rgba(15, 23, 42, 0.14)',
-    '0 10px 12px rgba(15, 23, 42, 0.14)',
-    '0 12px 16px rgba(15, 23, 42, 0.16)',
-    '0 14px 18px rgba(15, 23, 42, 0.18)',
-    '0 16px 20px rgba(15, 23, 42, 0.18)',
-    '0 18px 24px rgba(15, 23, 42, 0.2)',
-    '0 20px 28px rgba(15, 23, 42, 0.22)',
-    '0 22px 32px rgba(15, 23, 42, 0.24)',
-    '0 24px 36px rgba(15, 23, 42, 0.24)',
-    '0 26px 40px rgba(15, 23, 42, 0.26)',
-    '0 28px 44px rgba(15, 23, 42, 0.28)',
-    '0 30px 48px rgba(15, 23, 42, 0.28)',
-    '0 32px 52px rgba(15, 23, 42, 0.3)',
-    '0 34px 56px rgba(15, 23, 42, 0.32)',
-    '0 36px 60px rgba(15, 23, 42, 0.32)',
-    '0 38px 64px rgba(15, 23, 42, 0.34)',
-    '0 40px 68px rgba(15, 23, 42, 0.36)',
-    '0 42px 72px rgba(15, 23, 42, 0.36)',
-    '0 44px 76px rgba(15, 23, 42, 0.38)',
-  ],
 });
 
 export default theme;
