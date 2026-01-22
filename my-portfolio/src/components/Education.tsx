@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Card, CardContent, Stack, Box } from '@mui/material';
-import iitDelhiLogo from '../assets/iit-delhi-logo.svg';
+import iitDelhiLogo from '../assets/iit-delhi-logo.jpg';
 
 const Education: React.FC = () => {
   return (
