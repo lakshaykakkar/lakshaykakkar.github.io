@@ -92,23 +92,6 @@ const Header: React.FC = () => {
             sx={{
               px: 3,
               py: 1,
-              bgcolor: 'primary.main',
-              color: 'white',
-              borderRadius: 2,
-              fontWeight: 500,
-              transition: 'all 0.3s ease',
-              '&:hover': {
-                bgcolor: 'primary.dark',
-                transform: 'scale(1.05)',
-              },
-            }}
-          >
-            +91-88601 00770
-          </Box>
-          <Box
-            sx={{
-              px: 3,
-              py: 1,
               bgcolor: 'secondary.main',
               color: 'primary.main',
               borderRadius: 2,
@@ -120,7 +103,7 @@ const Header: React.FC = () => {
               },
             }}
           >
-            lakshayk7k@gmail.com
+            lakshay7k[at]gmail[dot]com
           </Box>
           <Box
             sx={{
@@ -137,7 +120,7 @@ const Header: React.FC = () => {
               },
             }}
           >
-            lakshay@cse.iitd.ac.in
+            lakshay[at]cse[dot]iitd[dot]ac[dot]in
           </Box>
         </Box>
       </Paper>
