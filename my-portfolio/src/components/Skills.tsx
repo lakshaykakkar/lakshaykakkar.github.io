@@ -175,7 +175,7 @@ const Skills: React.FC = () => {
                 fontWeight: 600,
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                 '&:hover': {
-                  transform: 'scale(1.1)',
+                  transform: 'scale(1.05)',
                   boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
                   cursor: 'pointer'
                 }
