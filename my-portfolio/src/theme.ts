@@ -26,7 +26,7 @@ const gray = {
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
     primary,
     secondary,
     background: {
