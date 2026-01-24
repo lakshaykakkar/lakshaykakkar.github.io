@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Typography, Paper, Box } from '@mui/material';
-import profilePhoto from '../assets/profile-photo.svg';
+// import profilePhoto from '../assets/profile-photo.svg';
+import profilePhoto from '../assets/profile-photo.jpeg';
 
 const Header: React.FC = () => {
   return (
